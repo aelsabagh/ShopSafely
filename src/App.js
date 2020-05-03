@@ -11,9 +11,9 @@ function App() {
         <nav>
           <a href="/">
             <h1>
-              When&nbsp;to&nbsp;shop&nbsp;
+              Shop&nbsp;Safely&nbsp;
               <span role="img" aria-label="mask emoji">
-                😷
+              🛒😇
               </span>
             </h1>
           </a>
