@@ -85,13 +85,7 @@ export function Main() {
     <>
       <div className="intro">
         <p>
-          These charts were built in response to COVID-19, to help estimate
-          offpeak times to get groceries. The charts, which indicate how busy a
-          particular location is compared to its own peak times, use Google Maps
-          popular times data, via the{" "}
-          <a href="https://github.com/m-wrzr/populartimes">
-            populartimes library.
-          </a>{" "}
+        Stay safe and avoid large crowds with help from fellow grocery shoppers.{" "}
           <strong>
             Make sure to check directly with stores about their hours before
             venturing out.
@@ -112,22 +106,22 @@ export function Main() {
                 --Please choose a location--
               </option>
               <option value="ontario_ottawa_altavista">
-                Ottawa - Alta Vista
+                Sydney - Bondi Junction
               </option>
               <option value="barrhaven">Ottawa - Barrhaven</option>
               <option value="beechwood">Ottawa - Beechwood</option>
               <option value="ontario_ottawa_bellscorners">
-                Ottawa - Bells Corners
+                Canberra - City Centre
               </option>
               <option value="downtownottawa">Ottawa - Centretown</option>
               <option value="glebe">Ottawa - Glebe</option>
               <option value="ontario_ottawa_gloucester">
-                Ottawa - Gloucester
+                Canberra - Gungahlin
               </option>
-              <option value="hintonburg">Ottawa - Hintonburg</option>
-              <option value="kanata">Ottawa - Kanata</option>
-              <option value="ontario_ottawa_manotick">Ottawa - Manotick</option>
-              <option value="ontario_ottawa_nepean">Ottawa - Nepean</option>
+              <option value="hintonburg">Canberra - Fyshwick</option>
+              <option value="kanata">Canberra - Woden</option>
+              <option value="ontario_ottawa_manotick">Canberra - Belconnen</option>
+              <option value="ontario_ottawa_nepean">Sydney - City Centre</option>
               <option value="orleans">Ottawa - Orleans</option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
               <option value="southkeys">Ottawa - South Keys</option>
@@ -185,7 +179,8 @@ export function Main() {
           </label>
         </div>
 
-        <div className="legendContainer">
+        <div className="legendContainer" style={{backgroundColor: 'rgb(248,248,248)', padding:'10px', borderRadius: '7px'}}>
+        <strong style={{textAlign: 'justify'}}>Legend:</strong>
           <div className="legend" />
           <div className="legendLabel">
             <span className="left">Closed or not enough data</span>
