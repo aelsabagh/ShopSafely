@@ -15,7 +15,7 @@ body {
 a {
   text-decoration: none;
   color: black;
-  border-bottom: 2px solid rgba(128, 0, 128, 0.2);
+  border-bottom: 2px solid rgba(0,153,102, 0.4);
   transition: background 0.5s;
 }
 
@@ -44,7 +44,7 @@ p {
 }
 
 a:hover {
-  background: rgba(128, 0, 128, 0.2);
+  background: rgba(0,153,102, 0.2);
 }
 
 h1 {
@@ -210,16 +210,16 @@ label {
   cursor: pointer;
   transition: border 0.5s;
   border: 2px solid transparent;
-  outline: rgba(128, 0, 128, 0.2);
+  outline: rgba(0,153,102, 0.2);
   font-size: 14px;
 }
 
 .showHide:hover {
-  border: 2px solid rgba(128, 0, 128, 0.2);
+  border: 2px solid rgba(0,153,102, 0.2);
 }
 
 .showHide:focus {
-  border: 2px solid rgba(128, 0, 128, 0.4);
+  border: 2px solid rgba(0,153,102, 0.4);
 }
 
 .quietest {
@@ -228,6 +228,10 @@ label {
 
 .busiest {
   border-bottom: 2px solid rgba(128, 0, 128, 1);
+}
+
+h1 {
+  color: rgb(0,153,102);
 }
 
 footer {

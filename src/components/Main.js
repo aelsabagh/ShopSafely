@@ -86,11 +86,12 @@ export function Main() {
       <div className="intro">
         <p>
         Stay safe and avoid large crowds with help from fellow grocery shoppers.{" "}
-          <strong>
-            Make sure to check directly with stores about their hours before
-            venturing out.
-          </strong>
         </p>
+        <p>
+        <strong>
+            Check opening hours with stores before leaving home.
+          </strong>
+          </p>
       </div>
 
       <div className="innerContainer">
@@ -105,23 +106,28 @@ export function Main() {
               <option disabled value="">
                 --Please choose a location--
               </option>
+              <option disabled>NSW</option>
               <option value="ontario_ottawa_altavista">
                 Sydney - Bondi Junction
               </option>
+              <option value="ontario_ottawa_nepean">Sydney - City Centre</option>
+
               <option value="barrhaven">Ottawa - Barrhaven</option>
               <option value="beechwood">Ottawa - Beechwood</option>
+              <option value="downtownottawa">Ottawa - Centretown</option>
+              <option value="glebe">Ottawa - Glebe</option>
+              <option disabled>ACT</option>
               <option value="ontario_ottawa_bellscorners">
                 Canberra - City Centre
               </option>
-              <option value="downtownottawa">Ottawa - Centretown</option>
-              <option value="glebe">Ottawa - Glebe</option>
               <option value="ontario_ottawa_gloucester">
                 Canberra - Gungahlin
               </option>
               <option value="hintonburg">Canberra - Fyshwick</option>
               <option value="kanata">Canberra - Woden</option>
               <option value="ontario_ottawa_manotick">Canberra - Belconnen</option>
-              <option value="ontario_ottawa_nepean">Sydney - City Centre</option>
+              <option disabled>VIC</option>
+
               <option value="orleans">Ottawa - Orleans</option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
               <option value="southkeys">Ottawa - South Keys</option>
